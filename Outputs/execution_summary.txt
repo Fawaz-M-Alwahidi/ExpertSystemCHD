@@ -1,0 +1,36 @@
+HealthWise CHD Fuzzy Expert System - Execution Summary
+============================================================
+
+Membership design:
+- BP: Low trapezoid, Medium triangle, High trapezoid
+- Chol: Low trapezoid, High trapezoid
+- HR: Slow trapezoid, Moderate triangle, Fast trapezoid
+- CHD output: Healthy trapezoid, Middle triangle, Sick trapezoid
+- Mamdani AND = min, aggregation = max, defuzzification = centroid
+- Sugeno uses singleton consequents: Healthy=0.75, Middle=2.0, Sick=3.25
+- Hedges: Indeed Healthy = mu^2, Somewhat Sick = sqrt(mu)
+
+Person_1
+--------
+Inputs: BP=105, Chol=160, HR=55
+Base COG = 0.592753 (Healthy region)
+Base Sugeno = 0.750000 (Healthy region)
+Hedge COG = 0.529839 (Healthy region)
+Hedge Sugeno = 0.550000 (Healthy region)
+
+Person_2
+--------
+Inputs: BP=120, Chol=195, HR=65
+Base COG = 0.728343 (Healthy region)
+Base Sugeno = 0.750000 (Healthy region)
+Hedge COG = 0.668778 (Healthy region)
+Hedge Sugeno = 0.550000 (Healthy region)
+
+Person_3
+--------
+Inputs: BP=165, Chol=186, HR=95
+Base COG = 2.849940 (Sick region)
+Base Sugeno = 2.884146 (Sick region)
+Hedge COG = 2.843371 (Sick region)
+Hedge Sugeno = 2.671951 (Sick region)
+

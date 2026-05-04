@@ -1,0 +1,4 @@
+Patient,BP,Chol,HR,Base COG,Base Sugeno,Base COG Label,Base Sugeno Label,Hedge COG,Hedge Sugeno,Hedge COG Label,Hedge Sugeno Label
+Person_1,105,160,55,0.592753,0.75,Healthy region,Healthy region,0.529839,0.55,Healthy region,Healthy region
+Person_2,120,195,65,0.728343,0.75,Healthy region,Healthy region,0.668778,0.55,Healthy region,Healthy region
+Person_3,165,186,95,2.84994,2.884146,Sick region,Sick region,2.843371,2.671951,Sick region,Sick region

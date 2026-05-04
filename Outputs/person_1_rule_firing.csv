@@ -1,0 +1,7 @@
+Rule,Consequent,Antecedent Degrees,Firing Strength (min),Rule Text
+1,healthy,"1.0000, 1.0000, 1.0000",1.0,IF BP is Low AND Chol is Low AND HR is Slow THEN CHD is Healthy
+2,healthy,"1.0000, 1.0000, 0.0000",0.0,IF BP is Low AND Chol is Low AND HR is Moderate THEN CHD is Healthy
+3,middle,"0.0000, 1.0000, 0.0000",0.0,IF BP is Medium AND Chol is Low AND HR is Moderate THEN CHD is Middle
+4,middle,"0.0000, 0.0000, 1.0000",0.0,IF BP is Medium AND Chol is High AND HR is Slow THEN CHD is Middle
+5,sick,"0.0000, 1.0000, 0.0000",0.0,IF BP is High AND Chol is Low AND HR is Moderate THEN CHD is Sick
+6,sick,"0.0000, 0.0000, 0.0000",0.0,IF BP is High AND Chol is High AND HR is Fast THEN CHD is Sick

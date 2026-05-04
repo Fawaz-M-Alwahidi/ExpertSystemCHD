@@ -1,0 +1,3 @@
+Patient,Mode,COG,Sugeno,COG Label,Sugeno Label
+Person_1,Base,0.592753,0.75,Healthy region,Healthy region
+Person_1,Hedge-modified,0.529839,0.55,Healthy region,Healthy region

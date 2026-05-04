@@ -1,0 +1,9 @@
+Variable,Linguistic Term,Membership Degree
+bp,low,0.666667
+bp,medium,0.0
+bp,high,0.0
+chol,low,0.125
+chol,high,0.375
+hr,slow,1.0
+hr,moderate,0.0
+hr,fast,0.0
