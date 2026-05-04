@@ -36,13 +36,13 @@ The system uses both:
 ## 🧪 Sample Outputs
 
 ### 🔹 Membership Functions
-![Membership](ExpertSystemCHD\Outputs\membership_bp.png)
+![Membership](Outputs/membership_bp.png)
 
 ### 🔹 Aggregated Output
-![Output](images/person_1_aggregated_base.png)
+![Output](Outputs/person_1_aggregated_base.png)
 
 ### 🔹 Sensitivity Analysis
-![Sensitivity](images/sensitivity_analysis.png)
+![Sensitivity](Outputs/sensitivity_analysis.png)
 
 ---
 
