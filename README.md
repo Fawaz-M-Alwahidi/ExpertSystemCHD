@@ -36,7 +36,7 @@ The system uses both:
 ## 🧪 Sample Outputs
 
 ### 🔹 Membership Functions
-![Membership](images/membership_bp.png)
+![Membership](ExpertSystemCHD\Outputs\membership_bp.png)
 
 ### 🔹 Aggregated Output
 ![Output](images/person_1_aggregated_base.png)
@@ -71,7 +71,7 @@ The system uses both:
 ## ▶️ How to Run
 
 ```bash
-python your_file_name.py
+HealthWise.py
 ```
 
 ---
